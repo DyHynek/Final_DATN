@@ -59,8 +59,8 @@ data_loc = deque([0] * DATA_BUFFER_SIZE, maxlen=DATA_BUFFER_SIZE)
 time_data = deque([0] * DATA_BUFFER_SIZE, maxlen=DATA_BUFFER_SIZE)
 
 # Buffer dữ liệu miền tần số
-frequency_data = deque([0] * DATA_BUFFER_SIZE, maxlen=DATA_BUFFER_SIZE)
-amplitude_data = deque([0] * DATA_BUFFER_SIZE, maxlen=DATA_BUFFER_SIZE)
+#frequency_data = deque([0] * DATA_BUFFER_SIZE, maxlen=DATA_BUFFER_SIZE)
+#amplitude_data = deque([0] * DATA_BUFFER_SIZE, maxlen=DATA_BUFFER_SIZE)
 
 # Bắt đầu đếm thời gian
 start_time = time.time()
