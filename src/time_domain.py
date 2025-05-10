@@ -4,7 +4,7 @@ import matplotlib.pyplot as plt
 from scipy.signal import find_peaks
 
 # 🔹 1. Đọc file CSV
-file_path = "data/data_Cong_08052025.csv"  # Đổi thành đường dẫn file của bạn
+file_path = "data/data_Cong_09052025.csv"  # Đổi thành đường dẫn file của bạn
 df = pd.read_csv(file_path)
 
 # 🔹 2. Kiểm tra dữ liệu

@@ -30,9 +30,9 @@ MODEL_WAVELET = "model_wavelet.pkl"
 
 OUTPUT_FILE = "final_prediction.csv"
 
-acc_time = 0.9437
-acc_wavelet = 0.6905
-acc_nonlinear = 0.8783
+acc_time = 0.9483
+acc_wavelet = 0.6992
+acc_nonlinear = 0.8729
 
 # Định nghĩa múi giờ Việt Nam
 vn_tz = pytz.timezone('Asia/Ho_Chi_Minh')

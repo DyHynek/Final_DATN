@@ -4,7 +4,7 @@ import pywt
 from scipy.stats import kurtosis
 
 # Đọc file CSV
-df = pd.read_csv("data/data_Cong_08052025.csv")
+df = pd.read_csv("data/data_Cong_09052025.csv")
 
 if "IR Value filtered" in df.columns and "Time (s)" in df.columns and "Label" in df.columns:
     df = df.drop_duplicates(subset=["Time (s)"]).sort_values(by="Time (s)")
